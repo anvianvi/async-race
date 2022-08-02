@@ -1,9 +1,13 @@
-function component() {
-  const element = document.createElement('div');
 
-  element.innerHTML = 'Hello webpack engine';
+import headerComponent from "./header-component";
 
-  return element;
-}
 
-document.body.appendChild(component());
+// function SPA() {
+//   const body = document.createElement('body');
+
+
+
+//   return element;
+// }
+
+document.body.appendChild(headerComponent());
