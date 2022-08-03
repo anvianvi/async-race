@@ -1,9 +1,10 @@
-import { navButtons, resultsPageContent } from "./html-components";
+import { navButtons, racePage, resultsPageContent } from "./html-components";
 
 
 export const render = async () => {
   const html = `
   ${navButtons}
+  <div class="rase-page">${racePage}</div>
   <div class="results-page">${resultsPageContent}</div>
 `;
 

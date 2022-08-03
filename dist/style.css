@@ -23,6 +23,9 @@ table {
 table td, table th {
   padding: 0.5vw;
 }
+form{
+  padding: 1vw 0;
+}
 
 .menu-button {
   width: 120px;
@@ -43,3 +46,6 @@ table td, table th {
   color: #fff;
   width: 200px;
 }
+
+
+
