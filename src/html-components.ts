@@ -1,5 +1,5 @@
 export const navButtons = `
-<button class="menu-button" id="to-garage">To Garage</button>
+<button class="menu-button id="to-garage">To Garage</button>
 <button class="menu-button" id="to-winners">To Winners</button>
 `;
 

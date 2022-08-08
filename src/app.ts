@@ -1,6 +1,6 @@
+import { getCars } from "./api";
 import {
   navButtons,
-  racePage,
   racePageActionBar,
   racePageField,
   resultsPageContent,
@@ -22,7 +22,7 @@ export const render = async () => {
   const raceBlock = document.getElementById("race-block");
   const resultsBlock = document.getElementById("results-block");
 
-  toGarage.addEventListener("click", () => {
+  toGarage.addEventListener("click", async () => {
     raceBlock.classList.remove("hide");
     raceBlock.classList.add("active");
     resultsBlock.classList.remove("active");
@@ -34,6 +34,8 @@ export const render = async () => {
     resultsBlock.classList.add("active");
     resultsBlock.classList.remove("hide");
   });
+
+  console.log(getCars(1, 3));
 };
 
 render();
