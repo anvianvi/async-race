@@ -1,9 +1,9 @@
-export const navButtons = () => `
-<button class="menu-button">To Garage</button>
-<button class="menu-button">To Winners</button>
+export const navButtons = `
+<button class="menu-button" id="to-garage">To Garage</button>
+<button class="menu-button" id="to-winners">To Winners</button>
 `;
 
-export const racePageActionBar = () => `
+export const racePageActionBar = `
 <div class="forms-container">
 <form action="" method="post">
   <input type="text" name="name" placeholder="carname" />
@@ -21,14 +21,30 @@ export const racePageActionBar = () => `
 </div>
 `;
 
-export const racePageField = () => ``;
+export const racePageField = `
+<div class="race-block">
+<div class="car-header">
+  <button class="menu-button">sellect</button>
+  <button class="menu-button">remove</button>
+  <div class="car-name">(car name)</div>
+</div>
+<div class="road-container">
+  <button class="start-eng">A</button>
+  <button class="stop-eng">B</button>
+  <div class="car-container">
+    <img src="./car.svg" alt="" class="car">
+    <img src="./flag.svg" alt="" class="flag">
+  </div>
+</div>
+</div>
+`;
 
 export const racePage = () => `
 ${racePageActionBar}
 ${racePageField}
 `;
 
-export const resultsPageContent = () => `
+export const resultsPageContent = `
 <h2>Winners (winers counter)</h2>
 <h1>Page #(page counter)</h1>
 <table>

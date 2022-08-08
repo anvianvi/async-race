@@ -20,10 +20,11 @@ table {
   border-spacing: 0;
   margin: 2vw auto 2vw 0;
 }
-table td, table th {
+table td,
+table th {
   padding: 0.5vw;
 }
-form{
+form {
   padding: 1vw 0;
 }
 
@@ -47,5 +48,36 @@ form{
   width: 200px;
 }
 
+.car-header {
+  display: flex;
+}
+.road-container {
+  margin: 2vw 0;
+}
+.car {
+  height: 55px;
+  margin: 1vw 0 -10px 0;
+}
+
+.car-container {
+  margin: 1vw 0;
+  border-bottom: 2px dashed;
+}
+
+.flag {
+  height: 50px;
+  position: absolute;
+  left: 80vw;
+}
+
+.forms-container {
+  margin: 3vw 0;
+}
 
 
+.active {
+  display: block;
+}
+.hide {
+  display: none;
+}

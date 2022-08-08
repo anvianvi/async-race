@@ -144,5 +144,3 @@ export const updateWinner = async (id: number, car: ICar) =>
 //     });
 //   }
 // };
-
-
